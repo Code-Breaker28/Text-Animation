@@ -88,3 +88,21 @@ p{
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 399px) {
+    .container{
+        color: #e5e5e5;
+        font-size: .75rem;
+        text-transform: uppercase;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .animation{
+        height: 25px;
+        overflow: hidden;
+        margin-left: 0.5rem;
+    }
+}
